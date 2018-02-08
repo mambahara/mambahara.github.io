@@ -1,0 +1,75 @@
+*::-webkit-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid{
+	
+}
+body input:required:valid,
+body textarea:required:valid{
+	
+}
+body{
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.ul_social-buttons{
+	list-style-type: none;
+	margin: 0;
+}
+.ul_social-buttons li{
+	display: inline;
+}
+.paralax-img{
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: -1;
+overflow: hidden;
+height: 100vmin;
+}
+.img{
+	position: absolute;
+	top: -30%;
+	right: 0;
+	left: -20%;
+	bottom: 0;
+}
+.content-wrap{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 100vmin;
+	justify-content: center;
+}
+.advantages-wrap{
+	text-align: center;
+	padding: 50px 0;
+}
+header{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
