@@ -24,11 +24,31 @@ body textarea:required:valid{
 	
 }
 body{
-	font-family: "RobotoRegular", sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 16px;
 	position: relative;
 	margin: 0;
 	padding: 0;
+}
+header{
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+h1{
+	font-size: 64px;
+}
+.txt-uppercase{
+	text-transform: uppercase;
+}
+.txt-bold{
+	font-weight: 700;
+}
+.txt-grey{
+	color: #9b9b9b;
 }
 .ul_social-buttons{
 	list-style-type: none;
@@ -36,21 +56,60 @@ body{
 }
 .ul_social-buttons li{
 	display: inline;
+	padding: 0 7px;
 }
-.paralax-img{
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-z-index: -1;
-overflow: hidden;
-height: 100vmin;
+.back-img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background-image: url(/img/bg-01-1920x1000.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.bg-gradient{
+	background: linear-gradient(90deg, #B4C1C9 0%, #EEEFF1 100%);
+}
+.btn{
+	display: inline;
+	padding: 12px 40px;
+	text-align: center;
+	border-radius: 5px;
+	border: 3px solid #ed6a5a;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+}
+.btn--default{
+	background-color: #ed6a5a;
+	color: white;
+}
+.btn--default:hover{
+	background-color: #e22f19;
+	border: 3px solid #e22f19;
+	color: white;
+}
+.btn--trans{
+	background-color: transparent;
+	color: #ed6a5a;
+}
+.btn--trans:hover{
+	background-color: #ed6a5a;
+	color: white;
+}
+.btn__icon{
+	padding: 0 10px 0 0;
 }
 .img{
 	position: absolute;
-	top: -30%;
+	top: 0;
 	right: 0;
-	left: -20%;
+	left: 0;
 	bottom: 0;
 }
 .content-wrap{
@@ -59,17 +118,46 @@ height: 100vmin;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	height: 100vmin;
+	height: 100vh;
+	width: 40vw;
 	justify-content: center;
 }
-.advantages-wrap{
+.sct-advantages{
 	text-align: center;
-	padding: 50px 0;
+	padding: 80px 0;
 }
-header{
+.sct-advantages__item::before{
+	content: '';
 	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	height: 80%;
+	width: 1px;
 	left: 0;
+	top: 10%;
+}
+.sct-top-85{
+	padding-top: 85px;
+}
+.span--h2{
+	font-size: 45px;
+	font-weight: 700;
+	color: white;
+}
+.span--h5{
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+.span--icon{
+	font-size: 35px;
+}
+.paralax-wrapper{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.h4{
+	font-weight: 400;
+	margin-bottom: 30px;
 }
