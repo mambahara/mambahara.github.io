@@ -41,6 +41,38 @@ header{
 h1{
 	font-size: 64px;
 }
+h2{
+	font-size: 45px;
+}
+q{
+	quotes: none;
+}
+q::before{
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	font-size: 54px;
+	line-height: 54px;
+	color: #d9d9d9;  
+	content: "\f10d";
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+}
+.blockquote{
+	background-color: #f5f5f5;
+	padding: 20px 30px;
+	border-radius: 5px;
+	color: #434345;
+	font-size: 16px;
+}
+.txt-capitalize{
+	text-transform: capitalize;
+}
+.txt-center{
+	text-align: center;
+}
 .txt-uppercase{
 	text-transform: uppercase;
 }
@@ -65,10 +97,20 @@ h1{
 	bottom: 0;
 	left: 0;
 	z-index: -1;
-	background-image: url(/img/bg-01-1920x1000.jpg);
+	background-image: url(../img/bg-01-1920x1000.jpg);
 	background-position: center;
-	-webkit-background-size: cover;
-	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.back-img-02{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background-image: url(../img/bg-02-1920x800.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
 }
@@ -76,7 +118,7 @@ h1{
 	background: linear-gradient(90deg, #B4C1C9 0%, #EEEFF1 100%);
 }
 .btn{
-	display: inline;
+	display: inline-block;
 	padding: 12px 40px;
 	text-align: center;
 	border-radius: 5px;
@@ -122,6 +164,11 @@ h1{
 	width: 40vw;
 	justify-content: center;
 }
+.sct{
+	position: relative;
+	padding: 110px 0;
+	color: white;
+}
 .sct-advantages{
 	text-align: center;
 	padding: 80px 0;
@@ -134,6 +181,13 @@ h1{
 	width: 1px;
 	left: 0;
 	top: 10%;
+}
+.sct-price{
+	background-color: #d7f1ff;
+}
+.review{
+	background-color: white;
+	padding: 100px 0;
 }
 .sct-top-85{
 	padding-top: 85px;
@@ -155,7 +209,18 @@ h1{
 .paralax-wrapper{
 	height: 100%;
 	width: 100%;
-	overflow: hidden;
+}
+.offset-20{
+	margin: 20px 0;
+}
+.offset-bottom-30{
+	margin-bottom: 30px;
+}
+.offset-top-30{
+	margin-top: 30px;
+}
+.offset-top-60{
+	margin-top: 60px;
 }
 .h4{
 	font-weight: 400;
