@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 a{
 	text-decoration: none;
 	color: #808080;
@@ -11,6 +14,29 @@ body{
 	background-image: url(./images/background.png);
 	font-size: 16px;
 	font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Neucha', cursive;
+	text-transform: capitalize;
+}
+h1{
+	font-size: 2.5em;
+}
+h2{
+	font-size: 2.125em;
+}
+h3{
+	font-size: 1.75em;
+}
+h4{
+	font-size: 1.375em;
+}
+h5{
+	font-size: 16px;
+}
+h6{
+	font-size: 0.625em;
 }
 img{
 	width: 100%;
@@ -26,9 +52,6 @@ nav{
 }
 .float-r{
 	float: right;
-}
-h1, h3, h5{
-	font-family: 'Neucha', cursive;
 }
 .hr-undernav{
 	width: 95%;
@@ -75,7 +98,7 @@ h1, h3, h5{
 	list-style-type: none;
 	position: absolute;
 	top: 60px;
-	left: -30px;
+	left: -70px;
 	z-index: 2;
 	font-size: 24px;
 	text-align: center;
