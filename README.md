@@ -1,7 +1,7 @@
 наброски
 
-[archibook](https://mambahara.github.io/project_01/)
+[archibook](https://mambahara.github.io/project_01/) - месяц
 
-[mountain](https://mambahara.github.io/MOUNTAIN/)
+[mountain](https://mambahara.github.io/MOUNTAIN/) - месяц
 
-[maya](https://mambahara.github.io/maya/)
+[maya](https://mambahara.github.io/maya/) - неделя
